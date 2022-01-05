@@ -1,0 +1,19 @@
+body{
+    display:grid;
+    grid-template-columns: auto ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"to""bot"
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+   grid-area: img;
+   float: left;
+}
+#top{
+    grid-area: to;
+}
+#bot{
+    grid-area: bot;
+}
